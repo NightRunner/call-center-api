@@ -34,7 +34,7 @@
 		String seatNo 坐席号
 	}
 ```
-## 获取坐席状态
+## 获取坐席状态(未完成)
 ```
 	URL: v1/get-seat-status
 
