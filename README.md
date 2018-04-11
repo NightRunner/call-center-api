@@ -34,7 +34,7 @@
 		String seatNo 坐席号
 	}
 ```
-## 通过用户ID获取坐席号
+## 获取坐席状态
 ```
 	URL: v1/get-seat-status
 
@@ -45,3 +45,51 @@
 		Integer status 参见坐席状态码说明
 	}
 ```
+## 坐席上线
+```
+	URL: v1/login
+
+	参数：   
+		String seatNo 坐席号
+		[String telephone 电话号码]
+		
+	返回值： 无
+``` 
+
+## 坐席下线
+```
+	URL: v1/logout
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
+## 坐席下线
+```
+	URL: v1/logout
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
+## 外呼
+```
+	URL: v1/call
+
+	参数：   
+		String seatNo 坐席号
+		String telephone 被叫号码
+		
+	返回值： 无
+``` 
+## 挂断
+```
+	URL: v1/hang-up
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
