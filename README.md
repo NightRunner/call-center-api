@@ -84,3 +84,21 @@
 		
 	返回值： 无
 ``` 
+## 置闲(?)
+```
+	URL: v1/to-idle
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
+## 置忙(?)
+```
+	URL: v1/to-busy
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
