@@ -65,15 +65,6 @@
 		
 	返回值： 无
 ``` 
-## 坐席下线
-```
-	URL: v1/logout
-
-	参数：   
-		String seatNo 坐席号
-		
-	返回值： 无
-``` 
 ## 外呼
 ```
 	URL: v1/call
