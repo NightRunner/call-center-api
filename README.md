@@ -119,7 +119,6 @@
 	参数：   
 		String providerSeatNo 供应商坐席号
 		String providerCode   供应商code
-
 		
 	返回值： {
 		String seatNo 坐席号
