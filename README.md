@@ -75,6 +75,15 @@
 		
 	返回值： 无
 ``` 
+## 取消外呼(OK)
+```
+	URL: v1/cancel-call
+
+	参数：   
+		String seatNo 坐席号
+		
+	返回值： 无
+``` 
 ## 挂断(OK)
 ```
 	URL: v1/hang-up
