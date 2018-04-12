@@ -75,7 +75,7 @@
 		
 	返回值： 无
 ``` 
-## 取消外呼(?)
+## 取消外呼(OK)
 ```
 	URL: v1/cancel-call
 
@@ -111,3 +111,18 @@
 		
 	返回值： 无
 ``` 
+
+## 获取坐席号(?)
+```
+	URL: v1/get-seat-no
+
+	参数：   
+		String providerSeatNo 供应商坐席号
+		String providerCode   供应商code
+
+		
+	返回值： {
+		String seatNo 坐席号
+	}
+``` 
+
